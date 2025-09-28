@@ -67,7 +67,7 @@ Form untuk mengunggah surat baru ke arsip.
 Input yang diperlukan: Nomor Surat, Kategori, Judul, dan unggah file PDF.  
 Terdapat preview kategori yang tersedia beserta keterangannya.  
 Tombol aksi: Kembali dan Simpan.  
-![Form Unggah Surat](screenshots/2.png)
+![Form Unggah Surat](https://raw.githubusercontent.com/iqballmaulanaa/Arsip_Surat_Kelurahan/main/screenshots/2.png)
 
 ### Gambar 3: Halaman Lihat Surat (Preview Dokumen)
 Menampilkan detail surat yang dipilih.  
