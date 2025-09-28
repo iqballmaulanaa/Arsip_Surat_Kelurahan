@@ -61,7 +61,7 @@ Terdapat fitur pencarian surat.
 Tabel berisi kolom: Nomor Surat, Kategori, Judul, Waktu Pengarsipan, dan Aksi (Hapus).  
 Contoh data: Surat nomor 567 (kategori Pemberitahuan) dan 123 (kategori Nota Dinas).  
 
-![Halaman Arsip Surat](screenshots/1.png)
+![Halaman Arsip Surat](https://raw.githubusercontent.com/iqballmaulanaa/Arsip_Surat_Kelurahan/main/screenshots/1.png)
 
 ---
 
@@ -71,7 +71,7 @@ Input yang diperlukan: Nomor Surat, Kategori, Judul, dan unggah file PDF.
 Terdapat preview kategori yang tersedia beserta keterangannya.  
 Tombol aksi: **Kembali** dan **Simpan**.  
 
-![Form Unggah Surat](screenshots/2.png)
+![Form Unggah Surat](https://raw.githubusercontent.com/iqballmaulanaa/Arsip_Surat_Kelurahan/main/screenshots/2.png)
 
 ---
 
@@ -80,7 +80,7 @@ Menampilkan detail surat yang dipilih.
 Informasi yang ditampilkan: Nomor surat, kategori, judul, waktu unggah, dan preview dokumen.  
 Dokumen preview berupa tiket konfirmasi dengan informasi pembayaran.  
 
-![Preview Surat](screenshots/3.png)
+![Preview Surat](https://raw.githubusercontent.com/iqballmaulanaa/Arsip_Surat_Kelurahan/main/screenshots/3.png)
 
 ---
 
@@ -89,7 +89,7 @@ Form untuk mengedit surat yang sudah diarsipkan.
 Data yang dapat diubah: Kategori, Judul, dan file PDF (opsional).  
 Menampilkan file saat ini yang tersimpan.  
 
-![Form Edit Surat](screenshots/4.png)
+![Form Edit Surat](https://raw.githubusercontent.com/iqballmaulanaa/Arsip_Surat_Kelurahan/main/screenshots/4.png)
 
 ---
 
@@ -98,7 +98,7 @@ Dialog konfirmasi penghapusan surat dari arsip.
 Menanyakan apakah user yakin ingin menghapus arsip surat.  
 Opsi: **OK (hapus)** atau **Cancel (batal)**.  
 
-![Konfirmasi Hapus](screenshots/5.png)
+![Konfirmasi Hapus](https://raw.githubusercontent.com/iqballmaulanaa/Arsip_Surat_Kelurahan/main/screenshots/5.png)
 
 ---
 
@@ -108,7 +108,7 @@ Fitur pencarian kategori.
 Tabel berisi: ID Kategori, Nama Kategori, Keterangan, dan Aksi (Hapus/Edit).  
 Contoh kategori: Meeting, Nota Dinas, Pemberitahuan, Waspada.  
 
-![Halaman Kategori](screenshots/6.png)
+![Halaman Kategori](https://raw.githubusercontent.com/iqballmaulanaa/Arsip_Surat_Kelurahan/main/screenshots/6.png)
 
 ---
 
@@ -118,7 +118,7 @@ ID kategori di-generate otomatis oleh sistem.
 Input yang diperlukan: Nama Kategori dan Keterangan.  
 Tombol aksi: **Kembali** dan **Simpan**.  
 
-![Form Tambah Kategori](screenshots/7.png)
+![Form Tambah Kategori](https://raw.githubusercontent.com/iqballmaulanaa/Arsip_Surat_Kelurahan/main/screenshots/7.png)
 
 ---
 
@@ -128,7 +128,7 @@ Menampilkan ID kategori (tidak dapat diubah) dan Nama Kategori yang dapat diedit
 Juga menampilkan keterangan kategori.  
 Tombol aksi: **Kembali** dan **Simpan**.  
 
-![Form Edit Kategori](screenshots/8.png)
+![Form Edit Kategori](https://raw.githubusercontent.com/iqballmaulanaa/Arsip_Surat_Kelurahan/main/screenshots/8.png)
 
 ---
 
@@ -137,7 +137,7 @@ Menampilkan informasi tentang developer/pembuat sistem.
 Informasi: Nama, Program Studi, NIM, dan Tanggal Pembuatan.  
 Data: Iqbal, D3 Ml 222, 2231750015, 27 September 2025.  
 
-![Halaman About](screenshots/9.png)
+![Halaman About](https://raw.githubusercontent.com/iqballmaulanaa/Arsip_Surat_Kelurahan/main/screenshots/9.png)
 
 ---
 
@@ -147,4 +147,4 @@ Input yang dapat diubah: Nama Lengkap, Program Studi, NIM, Tanggal Pembuatan, da
 Menampilkan foto saat ini dan opsi untuk mengubahnya.  
 Tombol aksi: **Simpan Perubahan** dan **Batal**.  
 
-![Form Edit About](screenshots/10.png)
+![Form Edit About](https://raw.githubusercontent.com/iqballmaulanaa/Arsip_Surat_Kelurahan/main/screenshots/10.png)
