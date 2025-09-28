@@ -12,7 +12,9 @@ Aplikasi ini dibuat untuk membantu kelurahan dalam mengarsipkan surat-surat resm
   - Nomor surat
   - Kategori surat
   - Judul surat
-- Manajemen kategori surat
+- Manajemen kategori surat:
+  - Tambah, edit, hapus kategori
+  - Pencarian kategori berdasarkan **ID Kategori**, **Nama Kategori**, atau **Keterangan**
 - Preview dokumen PDF langsung di aplikasi
 - Update otomatis waktu unggah ketika surat diperbarui
 
