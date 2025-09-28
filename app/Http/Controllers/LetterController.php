@@ -37,12 +37,15 @@ class LetterController extends Controller
 
     public function store(Request $request)
     {
-        // Validasi
+        // ✅ Validasi hanya PDF maksimal 2MB
         $request->validate([
-            'letter_number' => 'required',
-            'category_id' => 'required|exists:categories,id',
-            'title' => 'required',
-            'file' => 'required|mimes:pdf|max:51200' // 50MB dalam KB
+            'letter_number' => 'required|string|max:50',
+            'category_id'   => 'required|exists:categories,id',
+            'title'         => 'required|string|max:255',
+            'file'          => 'required|mimes:pdf|max:2048', // hanya PDF max 2MB
+        ], [
+            'file.mimes' => 'File harus berupa PDF.',
+            'file.max'   => 'Ukuran file maksimal 2MB.',
         ]);
 
         try {
@@ -85,12 +88,15 @@ class LetterController extends Controller
     {
         $letter = Letter::findOrFail($id);
 
-        // Validasi
+        // ✅ Validasi hanya PDF maksimal 2MB
         $validated = $request->validate([
             'letter_number' => 'required|string|max:50',
             'category_id'   => 'required|exists:categories,id',
             'title'         => 'required|string|max:255',
-            'file'          => 'nullable|mimes:pdf|max:5120', // hanya pdf max 5MB
+            'file'          => 'nullable|mimes:pdf|max:2048', // hanya PDF max 2MB
+        ], [
+            'file.mimes' => 'File harus berupa PDF.',
+            'file.max'   => 'Ukuran file maksimal 2MB.',
         ]);
 
         // Update metadata
