@@ -17,7 +17,7 @@ Aplikasi ini dibuat untuk membantu kelurahan dalam mengarsipkan surat-surat resm
 - Update otomatis waktu unggah ketika surat diperbarui
 
 ## 🛠️ Teknologi yang Digunakan
-- **Laravel 10** – Framework PHP
+- **Laravel 12** – Framework PHP
 - **Bootstrap 5** – Tampilan UI
 - **MySQL** – Database
 - **phpMyAdmin** – Manajemen database
