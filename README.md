@@ -27,3 +27,26 @@ Aplikasi ini dibuat untuk membantu kelurahan dalam mengarsipkan surat-surat resm
 1. **Clone repository**
    ```bash
    git clone https://github.com/iqballmaulanaa/Arsip_Surat_Kelurahan.git
+
+2. **Masuk ke folder project**
+   cd Arsip_Surat_Kelurahan
+
+3. **Install dependencies**
+   composer install
+   npm install && npm run dev
+
+4. **Copy konfigurasi environment**
+   cp .env.example .env
+   Lalu sesuaikan konfigurasi database di file .env.
+
+5. **Generate key aplikasi**
+   php artisan key:generate
+
+6. **Import database**
+   Buka phpMyAdmin
+   Buat database baru, misalnya arsip_surat_kelurahan
+   Import file .sql yang ada di folder database/
+
+7. **Jalankan server lokal**
+   php artisan serve
+   Aplikasi bisa diakses melalui http://localhost:8000
