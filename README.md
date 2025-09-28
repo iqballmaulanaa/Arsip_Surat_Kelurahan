@@ -60,7 +60,7 @@ Menampilkan daftar surat yang sudah diarsipkan.
 Terdapat fitur pencarian surat.  
 Tabel berisi kolom: Nomor Surat, Kategori, Judul, Waktu Pengarsipan, dan Aksi (Hapus).  
 Contoh data: Surat nomor 567 (kategori Pemberitahuan) dan 123 (kategori Nota Dinas).  
-![Halaman Arsip Surat]![alt text](?raw=true)
+![Halaman Arsip Surat]![alt text](https://github.com/iqballmaulanaa/Arsip_Surat_Kelurahan/blob/main/screenshots/1.png?raw=true)
 
 ### Gambar 2: Form Unggah Surat Baru
 Form untuk mengunggah surat baru ke arsip.  
