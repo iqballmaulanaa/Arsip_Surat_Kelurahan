@@ -25,34 +25,6 @@ Aplikasi ini dibuat untuk membantu kelurahan dalam mengarsipkan surat-surat resm
 - **phpMyAdmin** – Manajemen database
 - **Composer & NPM** – Dependency management
 
-## 🚀 Cara Menjalankan
-```bash
-1. Clone repository
-   git clone https://github.com/iqballmaulanaa/Arsip_Surat_Kelurahan.git
-
-2. Masuk ke folder project
-   cd Arsip_Surat_Kelurahan
-
-3. Install dependencies
-   composer install
-   npm install && npm run dev
-
-4. Copy konfigurasi environment
-   cp .env.example .env
-   (Lalu sesuaikan konfigurasi database di file .env)
-
-5. Generate key aplikasi
-   php artisan key:generate
-
-6. Import database
-   - Buka phpMyAdmin
-   - Buat database baru, misalnya arsip_surat_kelurahan
-   - Import file .sql yang ada di folder database/
-
-7. Jalankan server lokal
-   php artisan serve
-   (Aplikasi bisa diakses melalui http://localhost:8000)
-
 ## 📸 Screenshot Aplikasi
 
 ### Gambar 1: Halaman Arsip Surat (Daftar Surat)
@@ -120,3 +92,31 @@ Input yang dapat diubah: Nama Lengkap, Program Studi, NIM, Tanggal Pembuatan, da
 Menampilkan foto saat ini dan opsi untuk mengubahnya.  
 Tombol aksi: Simpan Perubahan dan Batal.  
 ![Form Edit About](screenshots/10.png)
+
+## 🚀 Cara Menjalankan
+```bash
+1. Clone repository
+   git clone https://github.com/iqballmaulanaa/Arsip_Surat_Kelurahan.git
+
+2. Masuk ke folder project
+   cd Arsip_Surat_Kelurahan
+
+3. Install dependencies
+   composer install
+   npm install && npm run dev
+
+4. Copy konfigurasi environment
+   cp .env.example .env
+   (Lalu sesuaikan konfigurasi database di file .env)
+
+5. Generate key aplikasi
+   php artisan key:generate
+
+6. Import database
+   - Buka phpMyAdmin
+   - Buat database baru, misalnya arsip_surat_kelurahan
+   - Import file .sql yang ada di folder database/
+
+7. Jalankan server lokal
+   php artisan serve
+   (Aplikasi bisa diakses melalui http://localhost:8000)
