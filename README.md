@@ -24,29 +24,29 @@ Aplikasi ini dibuat untuk membantu kelurahan dalam mengarsipkan surat-surat resm
 - **Composer & NPM** – Dependency management
 
 ## 🚀 Cara Menjalankan
-1. **Clone repository**
-   ```bash
+```bash
+1. Clone repository
    git clone https://github.com/iqballmaulanaa/Arsip_Surat_Kelurahan.git
 
-2. **Masuk ke folder project**
+2. Masuk ke folder project
    cd Arsip_Surat_Kelurahan
 
-3. **Install dependencies**
+3. Install dependencies
    composer install
    npm install && npm run dev
 
-4. **Copy konfigurasi environment**
+4. Copy konfigurasi environment
    cp .env.example .env
-   Lalu sesuaikan konfigurasi database di file .env.
+   (Lalu sesuaikan konfigurasi database di file .env)
 
-5. **Generate key aplikasi**
+5. Generate key aplikasi
    php artisan key:generate
 
-6. **Import database**
-   Buka phpMyAdmin
-   Buat database baru, misalnya arsip_surat_kelurahan
-   Import file .sql yang ada di folder database/
+6. Import database
+   - Buka phpMyAdmin
+   - Buat database baru, misalnya arsip_surat_kelurahan
+   - Import file .sql yang ada di folder database/
 
-7. **Jalankan server lokal**
+7. Jalankan server lokal
    php artisan serve
-   Aplikasi bisa diakses melalui http://localhost:8000
+   (Aplikasi bisa diakses melalui http://localhost:8000)
