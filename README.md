@@ -56,7 +56,7 @@ Aplikasi ini dibuat untuk membantu kelurahan dalam mengarsipkan surat-surat resm
 ## 📸 Screenshot Aplikasi
 
 ### Gambar 1: Halaman Arsip Surat (Daftar Surat)  
-![Halaman Arsip Surat](https://raw.githubusercontent.com/iqballmaulanaa/Arsip_Surat_Kelurahan/main/Arsip_Surat_Kelurahan/screenshots/1.png)  
+![Halaman Arsip Surat]([https://raw.githubusercontent.com/iqballmaulanaa/Arsip_Surat_Kelurahan/main/Arsip_Surat_Kelurahan/screenshots](https://raw.githubusercontent.com/iqballmaulanaa/Arsip_Surat_Kelurahan/main/screenshots/1.png)  
 Menampilkan daftar surat yang sudah diarsipkan.  
 Terdapat fitur pencarian surat.  
 Tabel berisi kolom: Nomor Surat, Kategori, Judul, Waktu Pengarsipan, dan Aksi (Hapus).  
