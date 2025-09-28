@@ -61,6 +61,7 @@ Terdapat fitur pencarian surat.
 Tabel berisi kolom: Nomor Surat, Kategori, Judul, Waktu Pengarsipan, dan Aksi (Hapus).  
 Contoh data: Surat nomor 567 (kategori Pemberitahuan) dan 123 (kategori Nota Dinas).  
 <img width="1920" height="1128" alt="Image" src="https://github.com/user-attachments/assets/3223e145-091a-48e9-9f97-8c920b5f3698" />
+<img width="1920" height="1128" alt="1" src="https://github.com/user-attachments/assets/1451a9e7-d42f-4cc8-82fe-9dcb7ae3e923" />
 
 ### Gambar 2: Form Unggah Surat Baru
 Form untuk mengunggah surat baru ke arsip.  
